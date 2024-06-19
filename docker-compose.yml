@@ -8,7 +8,7 @@ services:
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: root
-      MYSQL_PASSWORD: <password>
+      MYSQL_PASSWORD: SantaCruzC3ltics.
       MYSQL_DB: todos
 
   mysql:
@@ -16,7 +16,7 @@ services:
     volumes:
       - todo-mysql-data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: <password>
+      MYSQL_ROOT_PASSWORD: SantaCruzC3ltics.
       MYSQL_DATABASE: todos
 
 volumes:
